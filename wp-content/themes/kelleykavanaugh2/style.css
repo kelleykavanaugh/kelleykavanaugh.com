@@ -156,7 +156,6 @@ a:hover {
 	border-radius: 0px;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
-
 }
 .navbar .brand,
 .navbar .nav > li > a {
@@ -186,6 +185,8 @@ a:hover {
 	background-color: transparent;
 	color: #777777;
 	border-radius: 0px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
 	border-left: 2px solid #777777;
 }
 .navbar .nav-collapse .nav > li > a:hover,
