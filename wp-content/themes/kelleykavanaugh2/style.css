@@ -205,65 +205,13 @@ a:hover {
 }
 /* Portrait tablet to landscape and desktop */
 @media (max-width: 979px) {
-	body { 
-		padding: 0 0 0 0;
-	}
-	.navbar .nav-collapse .nav > li > a,
-	.navbar .nav-collapse .dropdown-menu a {
-	color: #000;
-	font-weight: normal;
-	}
-	.container-fluid {
-		margin: 0px 0% 0 0%;
-	}
-	.footer {
-		margin: 0px 0% 0px 0%;
-	}
 }
 @media (min-width: 768px) {
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-	body { 
-		background: url(images/background.png) repeat-x;
-		background-position: 0 -50px;
-		background-color: #141411;
-		color: #141411;
-	}
-	.blogtitle {
-		height: 84px;
-		font-size: 38.5px;
-		line-height: 1em;
-		padding: 10px 0 0px 0px;
-	}
-	.description {
-		font-size: 30px;
-		line-height: 20px;
-		padding: 10px 0 10px 0px;
-	}
-	#content {
-		margin: 0px 0px 0 0px;
-	}
-	.footer {
-		padding: 0px 10px 0px 10px;
-	}	
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
-	.blogtitle {
-		height: 84px;
-		font-size: 30.5px;
-		line-height: 1em;
-		padding: 10px 0 0px 0px;
-	}
-	h1 {
-		font-size: 31.5px;
-		}
-	h2 {
-		font-size: 24.5px;
-		}
-	h3 {
-		font-size: 22.5px;
-	}
 }
 /* End Responsive */
