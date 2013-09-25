@@ -100,12 +100,12 @@ a:hover {
 }
 .nav-box {
 	margin: 0px 5% 0px 5%;
-	padding: 40px 0 0 0;
+	padding: 40px 0 20px 0;
 }
 .container-fluid {
 	background-color: #94dd7a;
 	padding: 0px 0px 0px 0px;
-	margin: 20px 12% 0 12%;
+	margin: 0px 12% 0 12%;
 	border: 0px solid #ff0000;
 }
 #content {
@@ -154,13 +154,14 @@ a:hover {
 	-webkit-box-shadow: none;
 	border: 0px solid #fff600;
 	border-radius: 0px;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
+    line-height: 1em;
+	min-height: 20px;
 }
 .navbar .brand,
 .navbar .nav > li > a {
 	color: #777777;
 	text-shadow: none;
+	padding: 0 30px 0 30px;
 }
 
 .navbar .brand:hover,
