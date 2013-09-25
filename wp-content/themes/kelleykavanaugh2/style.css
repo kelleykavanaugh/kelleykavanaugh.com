@@ -125,13 +125,13 @@ a:hover {
    padding: 0 0 0 0;
 }
 .footer {
-	color: #D11523;
+	color: #777777;
 	padding: 0px 40px 0px 40px;
-	margin: 0px 15% 0px 15%;
+	margin: 0px 12% 0px 12%;
 	border: 0px solid #ff0000;
 }
 .footer a, .footer a:hover, .footer a:active, .footer a:visited {
-	color: #D11523;
+	color: #777777;
 }
 .footer a:hover {
 	text-decoration: underline;
