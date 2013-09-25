@@ -63,12 +63,14 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Aaargh, "Aaargh", Arial, Helvetica, sans-serif;
+	font-weight: normal;
 	padding: 10px 0 0 0;
  	text-align: center;
 }
 h1 a, a:active, a:visited {
     text-decoration: none;
     color: #141411;
+	font-weight: normal;
 }
 a {
 	color: #141411;
