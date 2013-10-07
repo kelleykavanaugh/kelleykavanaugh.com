@@ -87,25 +87,15 @@ a:hover {
 	margin: 30px 0 -30px 0;
 	border: 0px solid #ff0000;
 }
-.circle1 {
-	background: url(images/circle1.png) no-repeat;
-	height: 198px;
-	width: 198px;
-	padding: 0px 0 0px 0px;
-	margin: 0 auto -188px auto;
-	position: relative;
-	top: -48px;
-	border: 0px solid #ff0000;
-}
 .circle {
 	background: url(images/circle1.png) no-repeat;
 	display:block;
 	height: 198px;
 	width: 198px;
 	padding: 0px 0 0px 0px;
-	margin: 0 auto -188px auto;
+	margin: 0 auto -180px auto; /* Negative brings posts up to bottom of circle */
 	position: relative;
-	top: -78px;
+	top: -178px; /* Negative brings circle up to top of page */
 	border: 0px solid #ff0000;
 }
 .blogtitle {
