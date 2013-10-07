@@ -1,5 +1,5 @@
       <?php get_header(); ?>
-                  <div class="circle index"></div>
+                  <div class="circle page1"></div>
         <div class="row-fluid">
           <div class="span12">
           <!-- Start The Loop -->

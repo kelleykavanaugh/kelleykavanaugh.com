@@ -99,8 +99,23 @@ a:hover {
 	-webkit-border-radius: 90px; /* circle */
 	-moz-border-radius: 90px; /* circle */
 }
-.index {
-	background: url(images/index-180x180.png) no-repeat;
+.page1 {
+	background: url(images/page1-180x180.jpg) no-repeat;
+}
+.page2 {
+	background: url(images/page2-180x180.jpg) no-repeat;
+}
+.page3 {
+	background: url(images/page3-180x180.jpg) no-repeat;
+}
+.page4 {
+	background: url(images/page4-180x180.jpg) no-repeat;
+}
+.page5 {
+	background: url(images/page5-180x180.jpg) no-repeat;
+}
+.page6 {
+	background: url(images/page6-180x180.jpg) no-repeat;
 }
 .blogtitle {
 	font-family: VeteranTypewriter, "VeteranTypewriter", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
@@ -274,8 +289,23 @@ a:hover {
 	-moz-border-radius: 50px; /* circle */
 	}
 	/* Circle images small */
-	.index {
-	background: url(images/index-100x100.png) no-repeat;
+	.page1 {
+	background: url(images/page1-100x100.jpg) no-repeat;
+	}
+	.page2 {
+	background: url(images/page2-100x100.jpg) no-repeat;
+	}
+	.page3 {
+	background: url(images/page3-100x100.jpg) no-repeat;
+	}
+	.page4 {
+	background: url(images/page4-100x100.jpg) no-repeat;
+	}
+	.page5 {
+	background: url(images/page5-100x100.jpg) no-repeat;
+	}
+	.page6 {
+	background: url(images/page6-100x100.jpg) no-repeat;
 	}
 	/*end Circle Images */
 
