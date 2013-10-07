@@ -86,8 +86,7 @@ a:hover {
 	margin: 30px 0 -30px 0;
 	border: 0px solid #ff0000;
 }
-.circle-index {
-	background: url(images/index-180x180.png) no-repeat;
+.circle {
 	display:block;
 	height: 180px;
 	width: 180px;
@@ -99,6 +98,9 @@ a:hover {
 	border-radius: 90px; /* circle */
 	-webkit-border-radius: 90px; /* circle */
 	-moz-border-radius: 90px; /* circle */
+}
+.index {
+	background: url(images/index-180x180.png) no-repeat;
 }
 .blogtitle {
 	font-family: VeteranTypewriter, "VeteranTypewriter", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
@@ -261,19 +263,21 @@ a:hover {
 	.container-fluid {
 	margin: 0px 0% 0 0%;
 	}
-	.circle-index {
-	background: url(images/index-100x100.png) no-repeat;
+	.circle { /* circle resize */
 	display:block;
 	height: 100px;
 	width: 100px;
-	padding: 0px 0 0px 0px;
 	margin: 0 auto -70px auto; /* Negative brings posts up to bottom of circle */
-	position: relative;
 	top: -58px; /* Negative brings circle up to top of page */
-	border: 0px solid #ff0000;
 	border-radius: 50px; /* circle */
 	-webkit-border-radius: 50px; /* circle */
 	-moz-border-radius: 50px; /* circle */
 	}
+	/* Circle images small */
+	.index {
+	background: url(images/index-100x100.png) no-repeat;
+	}
+	/*end Circle Images */
+
 }
 /* End Responsive */
