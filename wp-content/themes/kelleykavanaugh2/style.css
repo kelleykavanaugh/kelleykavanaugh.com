@@ -123,9 +123,8 @@ a:hover {
 	text-decoration: none;
 }
 .nav-box {
-	margin: 0px 0% 0px 0%;
-	padding: 40px 0 20px 0;
-	text-align: center;
+	margin: 0px 0% 0 0%;
+	padding: 40px 0px 20px 0;
 }
 .container-fluid {
 	background-color: #94dd7a;
@@ -169,6 +168,9 @@ a:hover {
 	color: #FFF;
 	border: 0px;
 }
+.navbar .nav {
+	margin: 0 0 0 0;
+}
 .navbar .navbar-inner {
 	font-family: Quicksand-Light, 'Quicksand-Light', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
 	font-size: 20px;
@@ -181,6 +183,7 @@ a:hover {
 	border-radius: 0px;
     line-height: 1em;
 	min-height: 20px;
+	padding-right: 0px;
 }
 .navbar .brand,
 .navbar .nav > li > a {
