@@ -18,7 +18,7 @@
   </head>
   <body>
 	<div class="banner"></div>
-      <div class="circle1"></div>
+      <div class="container-fluid">
  <div class="nav-box">
 <div class="navbar">
         <div class="navbar-inner">
@@ -30,11 +30,16 @@
           <a class="brand" href="<?php echo site_url(); ?>">home</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-            <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
+            <?php wp_list_pages(array('title_li' => '', 'exclude' => '4, 7, 10, 12')); ?>
+            </ul>
+            <div class="circle"></div>
+            <ul class="nav">
+            <?php wp_list_pages(array('title_li' => '', 'exclude' => '4, 3, 5')); ?>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.navbar-inner -->
       </div><!--/.navbar navbar-inverse navbar-fixed-top" -->
+      </div>
       </div>
           <div class="container-fluid">
             <div id="content">

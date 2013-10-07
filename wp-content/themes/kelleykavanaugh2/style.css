@@ -97,6 +97,17 @@ a:hover {
 	top: -48px;
 	border: 0px solid #ff0000;
 }
+.circle {
+	background: url(images/circle1.png) no-repeat;
+	display:block;
+	height: 198px;
+	width: 198px;
+	padding: 0px 0 0px 0px;
+	margin: 0 auto -188px auto;
+	position: relative;
+	top: -78px;
+	border: 0px solid #ff0000;
+}
 .blogtitle {
 	font-family: VeteranTypewriter, "VeteranTypewriter", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
 	text-align: center;
@@ -112,7 +123,7 @@ a:hover {
 	text-decoration: none;
 }
 .nav-box {
-	margin: 0px 5% 0px 5%;
+	margin: 0px 0% 0px 0%;
 	padding: 40px 0 20px 0;
 	text-align: center;
 }
