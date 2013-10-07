@@ -89,13 +89,16 @@ a:hover {
 .circle {
 	background: url(images/circle1.png) no-repeat;
 	display:block;
-	height: 198px;
-	width: 198px;
+	height: 180px;
+	width: 180px;
 	padding: 0px 0 0px 0px;
 	margin: 0 auto -180px auto; /* Negative brings posts up to bottom of circle */
 	position: relative;
 	top: -178px; /* Negative brings circle up to top of page */
 	border: 0px solid #ff0000;
+	border-radius: 90px; /* circle */
+	-webkit-border-radius: 90px; /* circle */
+	-moz-border-radius: 90px; /* circle */
 }
 .blogtitle {
 	font-family: VeteranTypewriter, "VeteranTypewriter", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
