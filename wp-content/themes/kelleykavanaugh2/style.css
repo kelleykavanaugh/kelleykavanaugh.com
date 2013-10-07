@@ -193,6 +193,7 @@ a:hover {
 .navbar .brand {
 	color: #777777;
 	text-shadow: none;
+	border-right: 2px solid #777777; /* add border-right on first nav button left */
 }
 .navbar .navbar-text {
 	color: #777777;
@@ -207,6 +208,9 @@ a:hover {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
 	border-left: 2px solid #777777;
+}
+.nav li:first-child {
+	border: 0px; /* remove border-left on first nav button right */
 }
 .navbar .nav-collapse .nav > li > a:hover,
 .navbar .nav-collapse .nav > li > a:focus,
