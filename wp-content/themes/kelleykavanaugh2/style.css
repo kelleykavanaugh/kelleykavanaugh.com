@@ -208,8 +208,8 @@ a:hover {
 	border: 0px; /* remove border-left on first nav button right */
 }
 /* End Navbar Styles */
-/* Drop Down Styles */
 
+/* Drop Down Styles */
 .navbar .nav-collapse .nav > li > a:hover,
 .navbar .nav-collapse .nav > li > a:focus,
 .navbar .nav-collapse .dropdown-menu a:hover,
@@ -223,11 +223,25 @@ a:hover {
 /* Large desktop */
 @media (min-width: 1200px) {
 	.nav-box {
-	margin: 0px 10% 0 10%; /* push margins in on wide-screen */
+	margin: 0px 10% 0 10%; /* push navbar margins in on wide-screen */
 	}
 }
 /* Portrait tablet to landscape and desktop */
 @media (max-width: 979px) {
+	.nav-collapse .nav > li > a, /*override bootstrap */
+	.nav-collapse .dropdown-menu a {
+	padding: 0px 0px 0px 20px;
+	font-weight: normal;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	}
+	.nav li, .navbar .brand {
+	border: 0px solid #777777; /*hide border */
+	}
+	.nav-collapse .nav {
+	margin: 0 0 0 0;
+	}
 }
 @media (min-width: 768px) {
 }
