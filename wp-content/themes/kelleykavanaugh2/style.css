@@ -57,9 +57,8 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 /* Universal Styles */
 body { 
 	background: url(images/background.jpg);
-	background-color: #141411;
+	background-color: #FFFFFF;
 	color: #141411;
-	border: 0px solid #ff0000;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Aaargh, "Aaargh", Arial, Helvetica, sans-serif;
@@ -242,13 +241,22 @@ a:hover {
 	.nav-collapse .nav {
 	margin: 0 0 0 0;
 	}
+	.container-fluid {
+	margin: 0px 5% 0 5%;
+	}
 }
 @media (min-width: 768px) {
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+	body {
+	padding: 0 0 0 0;
+	}
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
+	.container-fluid {
+	margin: 0px 0% 0 0%;
+	}
 }
 /* End Responsive */
