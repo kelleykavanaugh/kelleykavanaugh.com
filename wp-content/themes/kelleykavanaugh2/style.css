@@ -57,9 +57,8 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 /* Universal Styles */
 body { 
 	background: url(images/background.jpg);
-	background-color: #141411;
+	background-color: #FFFFFF;
 	color: #141411;
-	border: 0px solid #ff0000;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Aaargh, "Aaargh", Arial, Helvetica, sans-serif;
@@ -87,14 +86,15 @@ a:hover {
 	margin: 30px 0 -30px 0;
 	border: 0px solid #ff0000;
 }
-.circle1 {
+.circle {
 	background: url(images/circle1.png) no-repeat;
+	display:block;
 	height: 198px;
 	width: 198px;
 	padding: 0px 0 0px 0px;
-	margin: 0 auto -188px auto;
+	margin: 0 auto -180px auto; /* Negative brings posts up to bottom of circle */
 	position: relative;
-	top: -48px;
+	top: -178px; /* Negative brings circle up to top of page */
 	border: 0px solid #ff0000;
 }
 .blogtitle {
@@ -112,9 +112,8 @@ a:hover {
 	text-decoration: none;
 }
 .nav-box {
-	margin: 0px 5% 0px 5%;
-	padding: 40px 0 20px 0;
-	text-align: center;
+	margin: 0px 0% 0 0%;
+	padding: 40px 0px 20px 0;
 }
 .container-fluid {
 	background-color: #94dd7a;
@@ -154,7 +153,7 @@ a:hover {
 /* Navbar Styling */
 .navbar {
 	padding: 0 0 0 0;
-	margin: 0 auto 0 auto;
+	margin: 0 0 0 0;
 	color: #FFF;
 	border: 0px;
 }
@@ -170,12 +169,13 @@ a:hover {
 	border-radius: 0px;
     line-height: 1em;
 	min-height: 20px;
+	padding-right: 0px;
 }
 .navbar .brand,
 .navbar .nav > li > a {
 	color: #777777;
 	text-shadow: none;
-	padding: 0 30px 0 30px;
+	padding: 0 25px 0 25px;
 }
 
 .navbar .brand:hover,
@@ -189,13 +189,12 @@ a:hover {
 .navbar .brand {
 	color: #777777;
 	text-shadow: none;
+	border-right: 2px solid #777777; /* add border-right on first nav button left */
 }
 .navbar .navbar-text {
 	color: #777777;
 	text-shadow: none;
 }
-/* End Navbar Styles */
-/* Drop Down Styles */
 .nav li {
 	background-color: transparent;
 	color: #777777;
@@ -204,6 +203,12 @@ a:hover {
 	margin: 0 0 0 0;
 	border-left: 2px solid #777777;
 }
+.nav li:first-child {
+	border: 0px; /* remove border-left on first nav button right */
+}
+/* End Navbar Styles */
+
+/* Drop Down Styles */
 .navbar .nav-collapse .nav > li > a:hover,
 .navbar .nav-collapse .nav > li > a:focus,
 .navbar .nav-collapse .dropdown-menu a:hover,
@@ -216,16 +221,42 @@ a:hover {
 /* For Responsive Things */
 /* Large desktop */
 @media (min-width: 1200px) {
+	.nav-box {
+	margin: 0px 10% 0 10%; /* push navbar margins in on wide-screen */
+	}
 }
 /* Portrait tablet to landscape and desktop */
 @media (max-width: 979px) {
+	.nav-collapse .nav > li > a, /*override bootstrap */
+	.nav-collapse .dropdown-menu a {
+	padding: 0px 0px 0px 20px;
+	font-weight: normal;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	}
+	.nav li, .navbar .brand {
+	border: 0px solid #777777; /*hide border */
+	}
+	.nav-collapse .nav {
+	margin: 0 0 0 0;
+	}
+	.container-fluid {
+	margin: 0px 5% 0 5%;
+	}
 }
 @media (min-width: 768px) {
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+	body {
+	padding: 0 0 0 0;
+	}
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
+	.container-fluid {
+	margin: 0px 0% 0 0%;
+	}
 }
 /* End Responsive */
