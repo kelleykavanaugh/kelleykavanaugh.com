@@ -247,21 +247,21 @@ a:hover {
 
 /* End Drop Down Styles */
 /* Index Page Styles */
-.banner-home {
+.banner-splash {
 	background: url(images/banner.png);
 	height: 52px;
 	padding: 0px 0 0px 0px;
 	margin: -40px 0 0px 0;
 	border: 0px solid #ff0000;
 }
-.container-home {
+.container-splash {
 	background-color: none;
 	width: 800px;
 	padding: 0px 0px 0px 0px;
 	margin: 50px auto 50px auto;
-	border: 1px solid #ff0000;
+	border: 0px solid #ff0000;
 }
-.home {
+.splash {
 	display:block;
 	height: 180px;
 	width: 180px;
@@ -274,16 +274,19 @@ a:hover {
 	-webkit-border-radius: 90px; /* circle */
 	-moz-border-radius: 90px; /* circle */
 }
-.footer-home {
+.splash:hover {
+	background-position: 0 -180px;
+}
+.footer-splash {
 	color: #94dd7a;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 5% 0px 5%;
 	border: 0px solid #ff0000;
 }
-.footer-home a, .footer-home a:hover, .footer-home a:active, .footer-home a:visited {
+.footer-splash a, .footer-splash a:hover, .footer-splash a:active, .footer-splash a:visited {
 	color: #94dd7a;
 }
-.footer-home a:hover {
+.footer-splash a:hover {
 	text-decoration: underline;
 }
 /* End Index Page Styles */
