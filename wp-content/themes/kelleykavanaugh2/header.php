@@ -26,18 +26,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="<?php echo site_url(); ?>">home</a>
+          <a class="brand" href="../home">home</a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-left">
-            <?php wp_list_pages(array('title_li' => '', 'exclude' => '4, 7, 10, 12')); ?>
+            <?php wp_list_pages(array('title_li' => '', 'exclude' => '4, 7, 10, 12, 33, 35')); ?>
             </ul>
             <ul class="nav pull-right">
-            <?php wp_list_pages(array('title_li' => '', 'exclude' => '4, 3, 5')); ?>
+            <?php wp_list_pages(array('title_li' => '', 'exclude' => '4, 3, 5, 33, 35')); ?>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.navbar-inner -->
       </div><!--/.navbar navbar-inverse navbar-fixed-top" -->
       </div>
       </div>
-          <div class="container-fluid">
-            <div id="content">
+        <div class="container-fluid">
+          <div id="content">

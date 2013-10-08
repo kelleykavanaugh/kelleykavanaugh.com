@@ -165,16 +165,16 @@ a:hover {
    list-style: none;
    padding: 0 0 0 0;
 }
-.footer {
+#footer {
 	color: #777777;
-	padding: 0px 40px 0px 40px;
-	margin: 0px 12% 0px 12%;
-	border: 0px solid #ff0000;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 15% 0px 15%;
 }
-.footer a, .footer a:hover, .footer a:active, .footer a:visited {
+#footer a, #footer a:hover, #footer a:active, #footer a:visited {
 	color: #777777;
 }
-.footer a:hover {
+#footer a:hover {
 	text-decoration: underline;
 }
 /* End Main Posts Styles */
@@ -246,6 +246,38 @@ a:hover {
 }
 
 /* End Drop Down Styles */
+/* Index Page Styles */
+.banner-splash {
+	background: url(images/banner.png);
+	height: 52px;
+	padding: 0px 0 0px 0px;
+	margin: -40px 0 0px 0;
+	border: 0px solid #ff0000;
+}
+.container-splash {
+	background-color: none;
+	width: 800px;
+	padding: 0px 0px 0px 0px;
+	margin: 50px auto 50px auto;
+	border: 0px solid #ff0000;
+}
+.splash {
+	display:block;
+	height: 180px;
+	width: 180px;
+	padding: 0px 0 0px 0px;
+	margin: 30px 0 0px 0; /* Negative brings posts up to bottom of circle */
+	position: relative;
+	top: 0px; /* Negative brings circle up to top of page */
+	border: 0px solid #ff0000;
+	border-radius: 90px; /* circle */
+	-webkit-border-radius: 90px; /* circle */
+	-moz-border-radius: 90px; /* circle */
+}
+.splash:hover {
+	background-position: 0 -180px;
+}
+/* End Index Page Styles */
 /* For Responsive Things */
 /* Large desktop */
 @media (min-width: 1200px) {
