@@ -1,17 +1,16 @@
-    <?php /* Template Name: Web Design */ get_header(); ?>
+    <?php /* Template Name: Page 2 */ get_header(); ?>
+      <div class="circle page2"></div>
         <div class="row-fluid">
           <div class="span12">
+          <div class="border-bottom no-padding">
+          <h1 class="no-padding"><?php the_title(); ?></h1>
+          </div><!--/border-bottom-->
           <!-- Start The Loop -->
-          <center><h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Read <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1></center>
-                    <?php query_posts($query_string . '&cat=2'); ?>
+          <?php query_posts( 'cat=2' ); ?>
           <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-          <p class="pull-right"><?php the_time('F jS, Y') ?></p>
             <div class="border-bottom">
               <?php the_content() ?>
-              <div class="pull-right">
-                <small><em><?php the_tags('Tags: ', ', ', '<br />'); ?></em></small>
-              </div><!--/pull-right-->
-            </div><!--/pull-left border-bottom-->
+            </div><!--/border-bottom-->
           <?php endwhile; else: ?>
           <p>Sorry, no posts matched your criteria.</p>
           <?php endif; ?>
