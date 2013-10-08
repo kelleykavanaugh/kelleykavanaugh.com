@@ -95,14 +95,16 @@ a:hover {
 	border: 0px solid #ff0000;
 }
 .circle {
+	background: #FFFFFF;
 	display:block;
-	height: 180px;
+	height: 130px;
 	width: 180px;
-	padding: 0px 0 0px 0px;
+	text-align: center;
+	padding: 50px 0 0px 0px;
 	margin: 0 auto -180px auto; /* Negative brings posts up to bottom of circle */
 	position: relative;
 	top: -178px; /* Negative brings circle up to top of page */
-	border: 0px solid #ff0000;
+	border: 2px dashed #2091e1;
 	border-radius: 90px; /* circle */
 	-webkit-border-radius: 90px; /* circle */
 	-moz-border-radius: 90px; /* circle */

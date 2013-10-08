@@ -1,5 +1,5 @@
     <?php /* Template Name: Page 2 */ get_header(); ?>
-      <div class="circle page2"></div>
+      <div class="circle"><i class="icon-camera-retro icon-5x"></i></div>
         <div class="row-fluid">
           <div class="span12">
           <div class="border-bottom">

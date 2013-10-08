@@ -12,7 +12,9 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+    <!-- font awesome -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!-- /font awesome -->
     <?php wp_enqueue_script("jquery"); ?>
     <?php wp_head(); ?>
   </head>
