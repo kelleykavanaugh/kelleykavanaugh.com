@@ -39,5 +39,5 @@
       </div><!--/.navbar navbar-inverse navbar-fixed-top" -->
       </div>
       </div>
-          <div class="container-fluid">
-            <div id="content">
+        <div class="container-fluid">
+          <div id="content">

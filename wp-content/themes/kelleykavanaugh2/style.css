@@ -165,16 +165,16 @@ a:hover {
    list-style: none;
    padding: 0 0 0 0;
 }
-.footer {
+#footer {
 	color: #777777;
-	padding: 0px 40px 0px 40px;
-	margin: 0px 12% 0px 12%;
-	border: 0px solid #ff0000;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 15% 0px 15%;
 }
-.footer a, .footer a:hover, .footer a:active, .footer a:visited {
+#footer a, #footer a:hover, #footer a:active, #footer a:visited {
 	color: #777777;
 }
-.footer a:hover {
+#footer a:hover {
 	text-decoration: underline;
 }
 /* End Main Posts Styles */
@@ -276,18 +276,6 @@ a:hover {
 }
 .splash:hover {
 	background-position: 0 -180px;
-}
-.footer-splash {
-	color: #94dd7a;
-	padding: 40px 0px 0px 0px;
-	margin: 0px 0% 0px 0%;
-	border: 0px solid #ff0000;
-}
-.footer-splash a, .footer-splash a:hover, .footer-splash a:active, .footer-splash a:visited {
-	color: #94dd7a;
-}
-.footer-splash a:hover {
-	text-decoration: underline;
 }
 /* End Index Page Styles */
 /* For Responsive Things */
