@@ -279,8 +279,8 @@ a:hover {
 }
 .footer-splash {
 	color: #94dd7a;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 5% 0px 5%;
+	padding: 40px 0px 0px 0px;
+	margin: 0px 0% 0px 0%;
 	border: 0px solid #ff0000;
 }
 .footer-splash a, .footer-splash a:hover, .footer-splash a:active, .footer-splash a:visited {

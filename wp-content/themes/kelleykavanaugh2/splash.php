@@ -27,7 +27,7 @@
             <a class="circle page2 splash" href="./web-design"></a>
           </div><!--/span -->
           <div class="span4">
-            <a class="circle page1 splash" href="./news"></a>
+            <a class="circle page1 splash" href="./home"></a>
           </div><!--/span -->
           <div class="span4">
             <a class="circle page3 splash" href="./costumes"></a>
@@ -44,7 +44,6 @@
             <a class="circle page6 splash" href="./contact"></a>
           </div><!--/span -->
         </div><!--/row -->
-      </div><!--/container-splash-->
 <!-- FOOTER -->
             <div class="footer-splash">
                 <footer>
@@ -56,6 +55,7 @@
                 </div><!--/ .pull-right -->
                 </footer>
             </div><!--/footer-splash-->
+          </div><!--/container-splash-->
         <?php wp_footer(); ?>
     <!-- Le javascript
     ================================================== -->
