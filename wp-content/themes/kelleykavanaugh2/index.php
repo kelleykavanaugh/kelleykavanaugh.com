@@ -1,30 +1,76 @@
-      <?php get_header(); ?>
-                  <div class="circle page1"></div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><?php wp_title('|', true, 'right'); ?> <?php bloginfo('name'); ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le styles -->
+    <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <?php wp_enqueue_script("jquery"); ?>
+    <?php wp_head(); ?>
+  </head>
+  <body>
+    <div class="banner-home">
+    </div> <!--/banner-->
+      <div class="container-home">
+<!-- HEADER END -->
         <div class="row-fluid">
-          <div class="span12">
-          <!-- Start The Loop -->
-          <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-          <center><h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Read <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1></center>
-          <p class="pull-left"><?php the_time('F jS, Y') ?></p>
-          <p class="pull-right">Post By: <?php the_author_posts_link() ?></p>
-            <div class="border-bottom">
-              <?php the_content() ?>
-              <div class="pull-right">
-                <small><em><?php the_tags('Tags: ', ', ', '<br />'); ?></em></small>
-              </div><!--/pull-right-->
-            </div><!--/pull-left border-bottom-->
-          <?php endwhile; else: ?>
-          <p>Sorry, no posts matched your criteria.</p>
-          <?php endif; ?>
-          <!-- End the Loop -->
-          <!--Start nav-->
-          <div class="pull-left">
-          <?php previous_posts_link( 'Newer Episodes' ); ?>
-          </div><!--/pull-left-->
-          <div class="pull-right">
-          <?php next_posts_link( 'Older Episodes' , $max_pages ); ?>
-          </div><!--/pull-right-->
-          <!--/ nav-->
-          </div><!--/ .span -->
-        </div><!--/ .row -->
-      <?php get_footer(); ?>
+          <div class="span4">
+            <div class="circle page2 home"></div>
+          </div><!--/span -->
+          <div class="span4">
+            <div class="circle page1 home"></div>
+          </div><!--/span -->
+          <div class="span4">
+            <div class="circle page3 home"></div>
+          </div><!--/span -->
+        </div><!--/row -->
+        <div class="row-fluid">
+          <div class="span2 offset2">
+            <div class="circle page4 home"></div>
+          </div><!--/span -->
+          <div class="span2 offset2">
+            <div class="circle page5 home"></div>
+          </div><!--/span -->
+          <div class="span2 offset2">
+            <div class="circle page6 home"></div>
+          </div><!--/span -->
+        </div><!--/row -->
+      </div><!--/container-home-->
+<!-- FOOTER -->
+            <div class="footer-home">
+                <footer>
+                <div class="pull-left">
+                    <small><em><strong><a href="http://wordpress.org/">Wordpress</a></strong> Theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a></strong>
+                </div><!--/. pull-left-->
+                <div class="pull-right">
+                    <small><em>&copy; 2013 <strong><?php bloginfo('name'); ?></div></strong></em></small>
+                </div><!--/ .pull-right -->
+                </footer>
+            </div><!--/footer-home-->
+        <?php wp_footer(); ?>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+    </body>
+</html>
