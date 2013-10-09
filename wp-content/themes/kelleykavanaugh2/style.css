@@ -85,6 +85,15 @@ a {
 a:hover {
 	color: #141411;
 }
+/* End Universal Styles */
+/* Main Posts Styles */
+.banner {
+	background: url(images/banner.png);
+	height: 52px;
+	padding: 0px 0 0px 0px;
+	margin: 30px 0 -30px 0;
+	border: 0px solid #ff0000;
+}
 .icon {
 	font-family: Aaargh, "Aaargh", Arial, Helvetica, sans-serif;
 	font-weight: normal;
@@ -97,23 +106,14 @@ a:hover {
 	font-size: 20pt;
 	padding: 0 0 0 0;
 }
-/* End Universal Styles */
-/* Main Posts Styles */
-.banner {
-	background: url(images/banner.png);
-	height: 52px;
-	padding: 0px 0 0px 0px;
-	margin: 30px 0 -30px 0;
-	border: 0px solid #ff0000;
-}
 .circle {
 	background: #FFFFFF;
 	color: #adadad;
 	display:block;
-	height: 160px;
+	height: 155px;
 	width: 180px;
 	text-align: center;
-	padding: 20px 0 0px 0px;
+	padding: 25px 0 0px 0px;
 	margin: 0 auto -180px auto; /* Negative brings posts up to bottom of circle */
 	position: relative;
 	top: -178px; /* Negative brings circle up to top of page */
@@ -122,20 +122,7 @@ a:hover {
 	-webkit-border-radius: 90px; /* circle */
 	-moz-border-radius: 90px; /* circle */
 }
-.blogtitle {
-	font-family: VeteranTypewriter, "VeteranTypewriter", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
-	text-align: center;
-	color: #FFF;
-	font-size: 38.5px;
-	position: relative;
-	top: -18px;
-	padding: 0px 0 0px 0px;
-	border: 0px solid #ff0000;
-}
-.blogtitle a, .blogtitle a:hover {
-	color: #FFF;
-	text-decoration: none;
-}
+
 .nav-box {
 	margin: 0px 0% 0 0%;
 	padding: 40px 0px 20px 0;
@@ -243,7 +230,7 @@ a:hover {
 }
 
 /* End Drop Down Styles */
-/* Index Page Styles */
+/* Splash Page Styles */
 .banner-splash {
 	background: url(images/banner.png);
 	height: 52px;
@@ -259,22 +246,13 @@ a:hover {
 	border: 0px solid #ff0000;
 }
 .splash {
-	display:block;
-	height: 180px;
-	width: 180px;
-	padding: 0px 0 0px 0px;
-	margin: 30px 0 0px 0; /* Negative brings posts up to bottom of circle */
-	position: relative;
-	top: 0px; /* Negative brings circle up to top of page */
-	border: 0px solid #ff0000;
-	border-radius: 90px; /* circle */
-	-webkit-border-radius: 90px; /* circle */
-	-moz-border-radius: 90px; /* circle */
+	margin: 30px 0 0px 0;
+	top: 0px;
 }
-.splash:hover {
-	background-position: 0 -180px;
+.circle a, a:active, a:visited {
+	color: red;
 }
-/* End Index Page Styles */
+/* End Splash Page Styles */
 /* For Responsive Things */
 /* Large desktop */
 @media (min-width: 1200px) {
