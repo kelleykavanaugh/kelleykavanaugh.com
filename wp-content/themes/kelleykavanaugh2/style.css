@@ -296,26 +296,5 @@ a:hover {
 	-webkit-border-radius: 50px; /* circle */
 	-moz-border-radius: 50px; /* circle */
 	}
-	/* Circle images small */
-	.page1 {
-	background: url(images/page1-100x100.jpg) no-repeat;
-	}
-	.page2 {
-	background: url(images/page2-100x100.jpg) no-repeat;
-	}
-	.page3 {
-	background: url(images/page3-100x100.jpg) no-repeat;
-	}
-	.page4 {
-	background: url(images/page4-100x100.jpg) no-repeat;
-	}
-	.page5 {
-	background: url(images/page5-100x100.jpg) no-repeat;
-	}
-	.page6 {
-	background: url(images/page6-100x100.jpg) no-repeat;
-	}
-	/*end Circle Images */
-
 }
 /* End Responsive */
