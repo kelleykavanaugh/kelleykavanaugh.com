@@ -26,10 +26,10 @@
       <div class="container-splash">
         <div class="row-fluid">
           <div class="span4">
-            <a class="circle icon splash" href="./web-design"><i class="icon-keyboard"></i><div class="title">webdesign</div></a>
+            <a class="circle icon splash" href="./websites"><i class="icon-keyboard"></i><div class="title">websites</div></a>
           </div><!--/span -->
           <div class="span4">
-            <a class="circle icon splash" href="./home"><i class="icon-heart-empty"></i><div class="title">home</div></a>
+            <a class="circle icon splash" href="./about"><i class="icon-heart-empty"></i><div class="title">about</div></a>
           </div><!--/span -->
           <div class="span4">
             <a class="circle icon splash" href="./costumes"><i class="icon-suitcase"></i><div class="title">costumes</div></a>
