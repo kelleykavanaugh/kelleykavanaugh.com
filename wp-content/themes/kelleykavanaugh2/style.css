@@ -66,11 +66,6 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 10px 0 0 0;
  	text-align: center;
 }
-h1 a, a:active, a:visited {
-    text-decoration: none;
-    color: #141411;
-	font-weight: normal;
-}
 h2 {
 	text-align:left;
 	font-size: 31.5px;
@@ -79,11 +74,23 @@ h3 {
 	text-align:right;
 	font-size: 31.5px;
 }
-a {
-	color: #141411;
+a:link, a:visited,
+a:active {
+	color: #8a8a8a;
+	text-decoration: none;
 }
 a:hover {
 	color: #141411;
+}
+
+/* End Universal Styles */
+/* Main Posts Styles */
+.banner {
+	background: url(images/banner.png);
+	height: 52px;
+	padding: 0px 0 0px 0px;
+	margin: 30px 0 -30px 0;
+	border: 0px solid #ff0000;
 }
 .icon {
 	font-family: Aaargh, "Aaargh", Arial, Helvetica, sans-serif;
@@ -97,23 +104,14 @@ a:hover {
 	font-size: 20pt;
 	padding: 0 0 0 0;
 }
-/* End Universal Styles */
-/* Main Posts Styles */
-.banner {
-	background: url(images/banner.png);
-	height: 52px;
-	padding: 0px 0 0px 0px;
-	margin: 30px 0 -30px 0;
-	border: 0px solid #ff0000;
-}
 .circle {
 	background: #FFFFFF;
-	color: #adadad;
+	color: #141411;
 	display:block;
-	height: 160px;
+	height: 155px;
 	width: 180px;
 	text-align: center;
-	padding: 20px 0 0px 0px;
+	padding: 25px 0 0px 0px;
 	margin: 0 auto -180px auto; /* Negative brings posts up to bottom of circle */
 	position: relative;
 	top: -178px; /* Negative brings circle up to top of page */
@@ -121,20 +119,6 @@ a:hover {
 	border-radius: 90px; /* circle */
 	-webkit-border-radius: 90px; /* circle */
 	-moz-border-radius: 90px; /* circle */
-}
-.blogtitle {
-	font-family: VeteranTypewriter, "VeteranTypewriter", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
-	text-align: center;
-	color: #FFF;
-	font-size: 38.5px;
-	position: relative;
-	top: -18px;
-	padding: 0px 0 0px 0px;
-	border: 0px solid #ff0000;
-}
-.blogtitle a, .blogtitle a:hover {
-	color: #FFF;
-	text-decoration: none;
 }
 .nav-box {
 	margin: 0px 0% 0 0%;
@@ -241,9 +225,8 @@ a:hover {
 	background-color: transparent;
 	text-decoration: underline;
 }
-
 /* End Drop Down Styles */
-/* Index Page Styles */
+/* Splash Page Styles */
 .banner-splash {
 	background: url(images/banner.png);
 	height: 52px;
@@ -259,22 +242,10 @@ a:hover {
 	border: 0px solid #ff0000;
 }
 .splash {
-	display:block;
-	height: 180px;
-	width: 180px;
-	padding: 0px 0 0px 0px;
-	margin: 30px 0 0px 0; /* Negative brings posts up to bottom of circle */
-	position: relative;
-	top: 0px; /* Negative brings circle up to top of page */
-	border: 0px solid #ff0000;
-	border-radius: 90px; /* circle */
-	-webkit-border-radius: 90px; /* circle */
-	-moz-border-radius: 90px; /* circle */
+	margin: 30px 0 0px 0;
+	top: 0px;
 }
-.splash:hover {
-	background-position: 0 -180px;
-}
-/* End Index Page Styles */
+/* End Splash Page Styles */
 /* For Responsive Things */
 /* Large desktop */
 @media (min-width: 1200px) {
@@ -325,26 +296,5 @@ a:hover {
 	-webkit-border-radius: 50px; /* circle */
 	-moz-border-radius: 50px; /* circle */
 	}
-	/* Circle images small */
-	.page1 {
-	background: url(images/page1-100x100.jpg) no-repeat;
-	}
-	.page2 {
-	background: url(images/page2-100x100.jpg) no-repeat;
-	}
-	.page3 {
-	background: url(images/page3-100x100.jpg) no-repeat;
-	}
-	.page4 {
-	background: url(images/page4-100x100.jpg) no-repeat;
-	}
-	.page5 {
-	background: url(images/page5-100x100.jpg) no-repeat;
-	}
-	.page6 {
-	background: url(images/page6-100x100.jpg) no-repeat;
-	}
-	/*end Circle Images */
-
 }
 /* End Responsive */
