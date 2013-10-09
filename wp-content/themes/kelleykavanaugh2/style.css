@@ -85,6 +85,18 @@ a {
 a:hover {
 	color: #141411;
 }
+.icon {
+	font-family: Aaargh, "Aaargh", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	padding: 0 0 0 0;
+ 	text-align: center;
+ 	font-size: 50pt;
+ 	line-height: .75em;
+}
+.title {
+	font-size: 20pt;
+	padding: 0 0 0 0;
+}
 /* End Universal Styles */
 /* Main Posts Styles */
 .banner {
@@ -95,35 +107,20 @@ a:hover {
 	border: 0px solid #ff0000;
 }
 .circle {
+	background: #FFFFFF;
+	color: #adadad;
 	display:block;
-	height: 180px;
+	height: 160px;
 	width: 180px;
-	padding: 0px 0 0px 0px;
+	text-align: center;
+	padding: 20px 0 0px 0px;
 	margin: 0 auto -180px auto; /* Negative brings posts up to bottom of circle */
 	position: relative;
 	top: -178px; /* Negative brings circle up to top of page */
-	border: 0px solid #ff0000;
+	border: 3px solid #8a8a8a;
 	border-radius: 90px; /* circle */
 	-webkit-border-radius: 90px; /* circle */
 	-moz-border-radius: 90px; /* circle */
-}
-.page1 {
-	background: url(images/page1-180x180.jpg) no-repeat;
-}
-.page2 {
-	background: url(images/page2-180x180.jpg) no-repeat;
-}
-.page3 {
-	background: url(images/page3-180x180.jpg) no-repeat;
-}
-.page4 {
-	background: url(images/page4-180x180.jpg) no-repeat;
-}
-.page5 {
-	background: url(images/page5-180x180.jpg) no-repeat;
-}
-.page6 {
-	background: url(images/page6-180x180.jpg) no-repeat;
 }
 .blogtitle {
 	font-family: VeteranTypewriter, "VeteranTypewriter", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
