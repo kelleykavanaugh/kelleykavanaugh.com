@@ -1,10 +1,7 @@
     <?php /* Template Name: Page 5 */ get_header(); ?>
-      <div class="circle page5"></div>
+      <div class="circle icon"><i class="icon-cut"></i><h1 class="title"><?php the_title(); ?></h1></div>
         <div class="row-fluid">
           <div class="span12">
-          <div class="border-bottom">
-          <h1><?php the_title(); ?></h1>
-          </div><!--/border-bottom-->
           <!-- Start The Loop -->
           <?php query_posts( 'cat=5' ); ?>
           <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
