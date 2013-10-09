@@ -20,26 +20,24 @@
   </head>
   <body>
 	<div class="banner"></div>
- <div class="nav-box">
-<div class="navbar">
-        <div class="navbar-inner">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="../home">home</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav pull-left">
-            <?php wp_list_pages(array('title_li' => '', 'exclude' => '4, 7, 10, 12, 33, 35')); ?>
-            </ul>
-            <ul class="nav pull-right">
+  <div class="nav-box">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <div class="nav-collapse collapse">
+          <ul class="nav pull-left">
+            <?php wp_list_pages(array('title_li' => '', 'exclude' => '4, 7, 10, 12, 35')); ?>
+          </ul>
+          <ul class="nav pull-right">
             <?php wp_list_pages(array('title_li' => '', 'exclude' => '4, 3, 5, 33, 35')); ?>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.navbar-inner -->
-      </div><!--/.navbar navbar-inverse navbar-fixed-top" -->
-      </div>
-      </div>
-        <div class="container-fluid">
-          <div id="content">
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.navbar-inner -->
+    </div><!--/.navbar" -->
+  </div><!--/.nav-box -->
+  <div class="container-fluid">
+    <div id="content">
