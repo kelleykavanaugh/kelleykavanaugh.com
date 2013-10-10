@@ -81,10 +81,10 @@ a:hover {
 	background: #FFFFFF;
 	color: #141411;
 	display:block;
-	height: 155px;
+	height: 150px;
 	width: 180px;
 	text-align: center;
-	padding: 25px 0 0px 0px;
+	padding: 30px 0 0px 0px;
 	margin: 0 auto -180px auto; /* Negative brings posts up to bottom of circle */
 	position: relative;
 	top: -178px; /* Negative brings circle up to top of page */

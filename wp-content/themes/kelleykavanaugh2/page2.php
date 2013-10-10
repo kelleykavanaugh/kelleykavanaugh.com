@@ -12,10 +12,8 @@
               </div><!--/block-text-->
             </div><!--/border-bottom-->
           <?php endwhile; else: ?>
-          <p>Sorry, no posts matched your criteria.</p>
           <?php endif; ?>
           <!-- End the Loop -->
-            </div><!--/border-bottom-->
 
           <!-- Start The Loop -->
           <?php query_posts( 'cat=2' ); ?>
