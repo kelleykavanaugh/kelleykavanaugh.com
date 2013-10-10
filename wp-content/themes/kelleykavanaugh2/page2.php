@@ -21,7 +21,9 @@
           <?php query_posts( 'cat=2' ); ?>
           <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             <div class="border-bottom">
-              <?php the_content() ?>
+              <div id="posts">
+                <?php the_content() ?>
+              </div><!--/posts-->
             </div><!--/border-bottom-->
           <?php endwhile; else: ?>
           <p>Sorry, no posts matched your criteria.</p>
