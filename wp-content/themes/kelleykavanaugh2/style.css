@@ -27,7 +27,7 @@ img.circlepost {
 	width: 180px;
 	text-align: center;
 	padding: 0px 0 0px 0px;
-	margin: 0px 20px 0px 20px; /* Negative brings posts up to bottom of circle */
+	margin: 0px 20px 20px 20px; /* Negative brings posts up to bottom of circle */
 	border: 3px solid #8a8a8a;
 	border-radius: 90px; /* circle */
 	-webkit-border-radius: 90px; /* circle */
