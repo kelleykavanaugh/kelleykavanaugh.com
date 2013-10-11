@@ -21,7 +21,7 @@
   <body>
     <?php /* Template Name: splash */ ?>
 <!-- HEADER END -->
-      <div class="banner-splash">
+      <div class="banner">
       </div> <!--/banner-->
       <div class="container-splash">
         <div class="row-fluid">

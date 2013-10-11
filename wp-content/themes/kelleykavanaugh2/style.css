@@ -210,13 +210,6 @@ a:hover {
 }
 /* End Drop Down Styles */
 /* Splash Page Styles */
-.banner-splash {
-	background: url(images/banner.png);
-	height: 52px;
-	padding: 0px 0 0px 0px;
-	margin: -40px 0 0px 0;
-	border: 0px solid #ff0000;
-}
 .container-splash {
 	background-color: none;
 	width: 800px;
