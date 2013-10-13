@@ -20,6 +20,7 @@
   </head>
   <body>
 	<div class="banner"></div>
+  <div class="container">
   <div class="nav-box">
     <div class="navbar">
       <div class="navbar-inner">

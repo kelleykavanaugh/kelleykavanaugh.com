@@ -39,6 +39,7 @@ body {
 	background-color: #FFFFFF;
 	color: #141411;
 	font-weight: 300;
+	text-align: justify;
 	font-size: 16px;
 	line-height: 22px;
 }
@@ -65,6 +66,10 @@ a:hover {
 	padding: 0px 0 0px 0px;
 	margin: 30px 0 -30px 0;
 	border: 0px solid #ff0000;
+}
+#container {
+	width: 1000px;
+	margin: 0 auto 0 auto;
 }
 .icon {
 	font-weight: normal;
@@ -94,13 +99,13 @@ a:hover {
 	-moz-border-radius: 90px; /* circle */
 }
 .nav-box {
-	margin: 0px 0% 0 0%;
+	margin: 0 0 0 0;
 	padding: 40px 0px 20px 0;
 }
 .container-fluid {
 	background-color: #94dd7a;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 12% 0 12%;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
 	border: 0px solid #ff0000;
 }
 #content {
@@ -134,7 +139,7 @@ a:hover {
 	color: #777777;
 	height: 20px;
 	padding: 0px 0px 0px 0px;
-	margin: 0px 15% 0px 15%;
+	margin: 0px 20px 0px 20px;
 }
 #footer a, #footer a:hover, #footer a:active, #footer a:visited {
 	color: #777777;
@@ -162,6 +167,7 @@ a:hover {
     line-height: 1em;
 	min-height: 20px;
 	padding-right: 0px;
+	padding-left: 0px;
 }
 .navbar .brand,
 .navbar .nav > li > a {
@@ -225,9 +231,6 @@ a:hover {
 /* For Responsive Things */
 /* Large desktop */
 @media (min-width: 1200px) {
-	.nav-box {
-	margin: 0px 10% 0 10%; /* push navbar margins in on wide-screen */
-	}
 }
 /* Portrait tablet to landscape and desktop */
 @media (max-width: 979px) {
@@ -245,9 +248,6 @@ a:hover {
 	.nav-collapse .nav {
 	margin: 0 0 0 0;
 	}
-	.container-fluid {
-	margin: 0px 5% 0 5%;
-	}
 }
 @media (min-width: 768px) {
 }
@@ -259,18 +259,15 @@ a:hover {
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
-	.container-fluid {
-	margin: 0px 0% 0 0%;
-	}
 	.circle { /* circle resize */
 	display:block;
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 	margin: 0 auto -70px auto; /* Negative brings posts up to bottom of circle */
 	top: -58px; /* Negative brings circle up to top of page */
 	border-radius: 50px; /* circle */
-	-webkit-border-radius: 50px; /* circle */
-	-moz-border-radius: 50px; /* circle */
+	-webkit-border-radius: 75px; /* circle */
+	-moz-border-radius: 75px; /* circle */
 	}
 }
 /* End Responsive */

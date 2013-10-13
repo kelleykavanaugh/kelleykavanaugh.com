@@ -13,6 +13,7 @@
                         </div><!--/ .span -->
                     </div><!--/ .row-fluid -->
                 </div><!--/footer-->
+            </div><!--/container-->
         <?php wp_footer(); ?>
     <!-- Le javascript
     ================================================== -->
