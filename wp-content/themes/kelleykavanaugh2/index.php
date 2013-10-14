@@ -1,5 +1,5 @@
     <?php get_header(); ?>
-      <div class="circle icon"><i class="icon-heart-empty"></i><h1 class="title"><?php the_title(); ?></h1></div>
+      <div class="circle coin"><i class="icon-heart-empty"></i><h1 class="title"><?php the_title(); ?></h1></div>
         <div class="row-fluid">
           <div class="span12">
             <div class="border-bottom">
