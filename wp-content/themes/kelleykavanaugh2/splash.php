@@ -26,24 +26,24 @@
       <div class="container-splash">
         <div class="row-fluid">
           <div class="span4">
-            <a class="circle icon splash" href="./websites"><i class="icon-keyboard"></i><div class="title">websites</div></a>
+            <a class="circle coin splash" href="./websites"><i class="icon-keyboard"></i><div class="title">websites</div></a>
           </div><!--/span -->
           <div class="span4">
-            <a class="circle icon splash" href="./about"><i class="icon-heart-empty"></i><div class="title">about</div></a>
+            <a class="circle coin splash" href="./about"><i class="icon-heart-empty"></i><div class="title">about</div></a>
           </div><!--/span -->
           <div class="span4">
-            <a class="circle icon splash" href="./costumes"><i class="icon-suitcase"></i><div class="title">costumes</div></a>
+            <a class="circle coin splash" href="./costumes"><i class="icon-suitcase"></i><div class="title">costumes</div></a>
           </div><!--/span -->
         </div><!--/row -->
         <div class="row-fluid">
           <div class="span2 offset2">
-            <a class="circle icon splash" href="./projects"><i class="icon-gears"></i><div class="title">projects</div></a>
+            <a class="circle coin splash" href="./projects"><i class="icon-gears"></i><div class="title">projects</div></a>
           </div><!--/span -->
           <div class="span2 offset2">
-            <a class="circle icon splash" href="./crafts"><i class="icon-cut"></i><div class="title">crafts</div></a>
+            <a class="circle coin splash" href="./crafts"><i class="icon-cut"></i><div class="title">crafts</div></a>
           </div><!--/span -->
           <div class="span2 offset2">
-            <a class="circle icon splash" href="./contact"><i class="icon-inbox"></i><div class="title">contact</div></a>
+            <a class="circle coin splash" href="./contact"><i class="icon-inbox"></i><div class="title">contact</div></a>
           </div><!--/span -->
         </div><!--/row -->
       </div><!--/container-splash-->

@@ -247,15 +247,14 @@ a:hover {
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
-	.circle { /* circle resize */
-	display:block;
-	height: 150px;
-	width: 150px;
+	.coin { /* circle resize */
 	margin: 0 auto -70px auto; /* Negative brings posts up to bottom of circle */
 	top: -58px; /* Negative brings circle up to top of page */
-	border-radius: 50px; /* circle */
-	-webkit-border-radius: 75px; /* circle */
-	-moz-border-radius: 75px; /* circle */
 	}
+
+	img.alignright {float:none; clear:both; margin: 0 auto 0 auto}
+	img.alignleft {float:none; clear:both; margin: 0 auto 0 auto}
+	a img.alignright {float:none; clear:both; margin: 0 auto 0 auto}
+	a img.alignleft {float:none; clear:both; margin: 0 auto 0 auto}
 }
 /* End Responsive */
