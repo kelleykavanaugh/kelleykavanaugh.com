@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"align",
+				"alignright"
+			],
+			[
 				"text",
-				"text-decoration"
+				"text-align"
 			],
 			[
 				"a",
@@ -31,15 +35,7 @@
 			"file": "wp-content/themes/kelleykavanaugh2/style.css",
 			"settings":
 			{
-				"buffer_size": 7572,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/kelleykavanaugh2/splash.php",
-			"settings":
-			{
-				"buffer_size": 2215,
+				"buffer_size": 5828,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,15 +43,7 @@
 			"file": "wp-content/themes/kelleykavanaugh2/header.php",
 			"settings":
 			{
-				"buffer_size": 1599,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/kelleykavanaugh2/page2.php",
-			"settings":
-			{
-				"buffer_size": 1114,
+				"buffer_size": 1679,
 				"line_ending": "Unix"
 			}
 		}
@@ -84,28 +72,31 @@
 	},
 	"file_history":
 	[
-		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/splash.php",
-		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/style.css",
-		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/page2.php",
 		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/header.php",
-		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/page5.php",
+		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/footer.php",
 		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/index.php",
-		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/page6.php",
-		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/page4.php",
+		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/page2.php",
 		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/page3.php",
+		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/page4.php",
+		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/page5.php",
+		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/page6.php",
+		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/splash.php",
+		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/bootstrap-override.css",
+		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/style.css",
+		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/plugins/carousel-horizontal-posts-content-slider/carousel-horizontal-posts-content-slider.php",
+		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/functions.php",
+		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/bootstrap/css/bootstrap.css",
 		"/Users/kelleykavanaugh/Dropbox/Sites/ericBaerSites/goggle-rx/css/style.less",
 		"/Users/kelleykavanaugh/Dropbox/Sites/ericBaerSites/goggle-rx/index.php",
-		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/footer.php",
 		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/page1.php",
 		"/Users/kelleykavanaugh/Dropbox/Sites/itsyourfuneralpodcast.com/itsyourfuneralpodcast/index.php",
-		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/bootstrap/css/bootstrap.css",
 		"/Users/kelleykavanaugh/Dropbox/Sites/kelleykavanaugh.com/wp-content/themes/kelleykavanaugh2/web-design.php",
 		"/Users/kelleykavanaugh/Dropbox/Sites/ericBaerSites/Commands to Remember",
 		"/Users/kelleykavanaugh/Dropbox/Sites/ericBaerSites/goggle-rx/css/pages/home.less"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -119,6 +110,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"coin",
+			"circle",
+			"Icon ",
+			"Icon",
+			"container-",
+			"nav-box",
+			".container",
+			"circle",
+			"font-family",
+			"p {",
+			"font-family",
+			"blockquote",
+			"block",
 			"h1",
 			".title",
 			"title",
@@ -148,6 +152,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"coin ",
 			"div",
 			"#footer",
 			"footer",
@@ -163,7 +168,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -171,15 +176,15 @@
 					"file": "wp-content/themes/kelleykavanaugh2/style.css",
 					"settings":
 					{
-						"buffer_size": 7572,
+						"buffer_size": 5828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7549,
-								7549
+								4693,
+								4693
 							]
 						],
 						"settings":
@@ -188,81 +193,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2851.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "wp-content/themes/kelleykavanaugh2/splash.php",
-					"settings":
-					{
-						"buffer_size": 2215,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1086,
-								1086
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 23.0,
-						"translation.y": 124.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "wp-content/themes/kelleykavanaugh2/header.php",
 					"settings":
 					{
-						"buffer_size": 1599,
+						"buffer_size": 1679,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1543,
-								776
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 34.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "wp-content/themes/kelleykavanaugh2/page2.php",
-					"settings":
-					{
-						"buffer_size": 1114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								499,
-								499
+								369,
+								369
 							]
 						],
 						"settings":
@@ -326,11 +275,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/Users/kelleykavanaugh/Dropbox/Sites/applesnacksmag.com/wp-content/themes/applesnacksmag.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,

@@ -203,19 +203,6 @@ a:hover {
 	text-decoration: underline;
 }
 /* End Drop Down Styles */
-/* Splash Page Styles */
-.container-splash {
-	background-color: none;
-	width: 800px;
-	padding: 0px 0px 0px 0px;
-	margin: 50px auto 50px auto;
-	border: 0px solid #ff0000;
-}
-.splash {
-	margin: 30px 0 0px 0;
-	top: 0px;
-}
-/* End Splash Page Styles */
 /* For Responsive Things */
 /* Large desktop */
 @media (min-width: 1200px) {
