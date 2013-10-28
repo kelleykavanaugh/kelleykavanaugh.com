@@ -21,8 +21,9 @@ Some "features" of this theme (current version):
 		<?php query_posts( 'cat=3' ); ?>
 ```
 ~ To use the Circle Images on Posts or Pages, upload an image that is 180 px by 180px and include the tag "circle" in the class of the image. For example:
+```html
 		<img class="size-full wp-image-196 alignright circle" alt="HFR Designs" src="http://www.kelleykavanaugh.com/wp-content/uploads/2013/10/hfddesigns.jpg" width="180" height="180" />
-
+```
 Please let me know if you use my Wordpress theme, or if you need help with anything on it! kelleykavanaugh@gmail.com
 
 Thanks,
