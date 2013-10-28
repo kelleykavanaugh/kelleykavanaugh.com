@@ -17,11 +17,12 @@ Some "features" of this theme (current version):
 ~ The Index and Page Template 6 are "about" and "contact" and thus are static Pages with no Posts.
 
 ~ Page Templates 2, 3, 4, & 5 call posts listed in specific categories only. To use your categories, you must find your own category numbers and replace them with my number from line 19:
+```html
 		<?php query_posts( 'cat=3' ); ?>
-
+```
 ~ To use the Circle Images on Posts or Pages, upload an image that is 180 px by 180px and include the tag "circle" in the class of the image. For example:
 		<img class="size-full wp-image-196 alignright circle" alt="HFR Designs" src="http://www.kelleykavanaugh.com/wp-content/uploads/2013/10/hfddesigns.jpg" width="180" height="180" />
-		
+
 Please let me know if you use my Wordpress theme, or if you need help with anything on it! kelleykavanaugh@gmail.com
 
 Thanks,
